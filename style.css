@@ -85,6 +85,7 @@ ul {
 
 .gp, .as {
 	display: block;
+	float: left;
 	width: 160px;
 	height: 46px;
 }
