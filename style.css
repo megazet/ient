@@ -85,13 +85,14 @@ ul {
 
 .gp, .as {
 	display: block;
-	float: left;
+	margin-left: 20pt;
 	width: 160px;
 	height: 46px;
 }
 
 .gp {
 	background-image: url('googleplay.svg');
+	float: left;
 }
 
 .as {
