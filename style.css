@@ -84,6 +84,7 @@ ul {
 }
 
 gp, as {
+	display: block;
 	width: 160px;
 	height: 46px;
 }
