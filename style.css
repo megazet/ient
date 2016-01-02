@@ -83,17 +83,17 @@ ul {
 	vertical-align: middle;
 }
 
-gp, as {
+.gp, .as {
 	display: block;
 	width: 160px;
 	height: 46px;
 }
 
-gp {
+.gp {
 	background-image: url('googleplay.svg');
 }
 
-as {
+.as {
 	background-image: url('appstore.svg');
 }
 
