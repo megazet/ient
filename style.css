@@ -78,14 +78,13 @@ ul {
 	margin-top: 0; margin-bottom :0;
 }
 
-.img {
+.banners {
+	float: left;
 	margin: 20pt;
-	vertical-align: middle;
 }
 
 .gp, .as {
-	display: inline-block;
-	margin-left: 20pt;
+	display: block;
 	width: 160px;
 	height: 46px;
 }
@@ -100,4 +99,11 @@ ul {
 
 p {
 	margin-left: 20pt;
+}
+
+figure {
+	display: inline-block;
+	margin: 20pt;
+	vertical-align: middle;
+	text-align: center;
 }
