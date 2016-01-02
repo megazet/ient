@@ -84,11 +84,10 @@ ul {
 }
 
 .gp, .as {
-	display: block;
+	display: inline-block;
 	margin-left: 20pt;
 	width: 160px;
 	height: 46px;
-	float: left;
 }
 
 .gp {
