@@ -1,72 +1,68 @@
+* {
+	margin: 0; padding: 0;
+}
+
 body, html {
+	align-items: center;
+	background-color: #FFFFFF;
 	color: #131313;
-	font: 12pt 'Helvetica', sans-serif;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	width: 100%; 
-}
-
-.wrapper {
-	height: 100%;
-	margin: 0 auto;
-	min-width: 950px;
-	width: 55%;
-}
-
-.header {
+	display: flex;
+	flex-direction: column;
+	font: 12pt 'Helvetica', Arial, sans-serif;
+    height: 100%;
 	width: 100%;
-	height: 25%;
-	margin-bottom: 1em;
-	margin-top: 1em;
+}
+
+.main {
+	flex: 1 0 auto;
+	width: 960px;
+}
+
+header {
+	align-items: center;
+	border-bottom: 1px solid #009900;
+	display: flex;
+
+	justify-content: center;
+	height: 210px;
+	padding: 1em 0;
 	text-align: center;
+	width: 100%;
 }
 
 .logo {
-	float: left;
+	margin: 0 auto;
 	height: 100%;
 }
 
-.title {
-	display: flex;
-	height: 100%;
+.titletext {
 	font-size: 400%;
+	text-align: center;
+	margin: 0 auto;
+	margin-left: 0;
 }
 
-.middle {
-	margin: auto;
-}
-
-.middle > a {
+.titletext > a {
 	color: #131313;
 	text-decoration: none;
 	transition: color 0.5s ease-out 0s;
 }
 
-.middle > a:hover {
+.titletext > a:hover {
 	color: #009900;
 	transition: color 0.5s ease-out 0s;
-}
-
-.content {
-	border-top: 1px solid #009900;
 }
 
 .hello {
 	margin: 1em;
 }
 
-.footer  {
-	width: 100%;
-	padding-top: 2em;
+.hello p {
+	margin: 1em 0;
 }
 
-.h2 {
+h1 {
 	font-size: 300%;
-}
-
-.h3 {
-	font-size: 200%;
 }
 
 label {
@@ -80,12 +76,8 @@ label {
 	border-bottom: 1px dashed #009900;
 }
 
-a, .green {
-	color: #009900;
-}
-
-.coda {
-	font-family: 'Coda', sans-serif;
+input {
+	visibility: hidden;
 }
 
 #ans1, #ans2, #ans3 {
@@ -105,27 +97,33 @@ a, .green {
 	opacity: 1;
 }
 
-#ans1 > p, #ans2 > p, #ans3 > p {
-	margin-bottom: 0;
-	margin-top: 0;
-}
-
 #faq1:checked + #ans1 > p, #faq2:checked + #ans2 > p, #faq3:checked + #ans3 > p {
-	margin-bottom: 1em;
-	margin-top: 1em;
-}
-
-input {
-	visibility: hidden;
+	margin: 1em 0;
 }
 
 ul {
-	margin-top: 0;
-	margin-bottom: 0;
 	margin-left: 1em;
 	padding-left: 1em;
 }
 
+footer {
+	flex: 0 0 auto;
+	margin: 1em 0;
+	text-align: center;
+}
+
+a, .green {
+	color: #009900;
+}
+
+.coda {
+	font-family: 'Coda', sans-serif;
+}
+
 .center {
 	text-align: center;
+}
+
+.superlink {
+	font-size: 200%;
 }
