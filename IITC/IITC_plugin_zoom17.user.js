@@ -67,7 +67,7 @@ var setup = function() {
 
   var parent = $(".leaflet-top.leaflet-left", window.map.getContainer());
   var button = document.createElement("a");
-    button.className = "leaflet-bar-part z17-default";
+    button.className = "z17-default";
     button.addEventListener("click", plugin.zoom17.onBtnClick, false);
     button.href = '#';
     button.title = 'White - default / Red - all porals / Yellow - all links';
