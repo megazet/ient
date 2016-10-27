@@ -9,7 +9,7 @@ body, html {
 	display: flex;
 	flex-direction: column;
 	font: 12pt 'Helvetica', Arial, sans-serif;
-    height: 100%;
+	height: 100%;
 	width: 100%;
 }
 
@@ -22,7 +22,6 @@ header {
 	align-items: center;
 	border-bottom: 1px solid #009900;
 	display: flex;
-
 	justify-content: center;
 	height: 210px;
 	padding: 1em 0;
@@ -31,8 +30,8 @@ header {
 }
 
 .logo {
-	margin: 0 auto;
 	height: 100%;
+	margin: 0 auto;
 }
 
 .titletext {
