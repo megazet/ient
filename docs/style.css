@@ -1,0 +1,172 @@
+body, html {
+	background-color: #FFFFFF;
+	color: #131313;
+	font: 18px 'Helvetica', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.main {
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+header {
+	text-align: center;
+	width: 100%;
+}
+
+.logo {
+	display: block;
+	margin: 1rem auto 0;
+	width: 50%;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 4rem;
+	font-weight: normal;
+	margin: 0;
+}
+
+.header {
+	color: #131313;
+	text-decoration: none;
+}
+.header:hover {
+	color: #009900;
+}
+
+.subheader {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	margin-top: -1.5rem;
+}
+
+nav {
+	border-bottom: 1px solid #009900;
+	border-top:  1px solid #009900;
+}
+
+.menu {
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu__item {
+	display: block;
+	float: left;
+	width: 20%;
+}
+
+.menu__item > label {
+	background-color: #FFFFFF;
+	box-sizing: border-box;
+	color: #009900;
+	cursor: pointer;
+	display: block;
+	font-size: 1rem;
+	padding: 1rem;
+	text-align: center;
+	width: 100%;
+}
+
+.menu__item > label:hover {
+	background-color: #009900;
+	color: #FFFFFF;
+}
+
+.infoblock {
+	margin-bottom: 1rem;
+	overflow: hidden;
+	width: 100%;
+}
+
+input {
+	display: none;
+}
+
+.slider {
+	transition: all .5s ease 0s;
+	width: 500%;
+}
+
+.info {
+	box-sizing: border-box;
+	float: left;
+	padding: 0 1rem;
+	width: 1000px;
+}
+
+#i1:checked ~ .slider {
+	transform: translateX(0);
+}
+
+#i2:checked ~ .slider {
+	transform: translateX(-1000px);
+}
+
+#i3:checked ~ .slider {
+	transform: translateX(-2000px);
+}
+
+#i4:checked ~ .slider {
+	transform: translateX(-3000px);
+}
+
+#i5:checked ~ .slider {
+	transform: translateX(-4000px);
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px solid #009900;
+	margin: 0;
+}
+
+footer {
+	margin: 1rem 0;
+	text-align: center;
+}
+
+.pseudolink {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+a, .pseudolink {
+	color: #009900;
+	text-decoration-color: transparent;
+	transition: text-decoration-color .5s ease 0s;
+}
+
+a:hover, .pseudolink:hover {
+	text-decoration-color: #009900;
+	transition: text-decoration-color .5s ease 0s;
+}
+
+.animated {
+	transition: all .5s ease 0s;
+}
+
+.coda {
+	font-family: 'Coda', sans-serif;
+}
+
+.center {
+	text-align: center;
+}
+
+.superlink {
+	font-size: 2rem;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
